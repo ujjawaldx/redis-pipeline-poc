@@ -12,3 +12,6 @@ pom.xml.asc
 .hgignore
 .hg/
 .local-m2/
+.calva/
+.clj-kondo/
+.lsp/
