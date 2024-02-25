@@ -1,7 +1,6 @@
 (ns redis-pipeline-poc.core
   (:require [taoensso.carmine :as car]
-            [criterium.core :as criterium-core]
-            [core.async :as core])
+            [criterium.core :as criterium-core])
   (:gen-class))
 
 (defonce connection-pool (car/connection-pool {}))
